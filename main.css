@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primary-color: #A31AA3;
+    --strong-gray: #5C5C5C;
+    --medium-gray: #A7A7A7;
+    --font-family: 'Roboto', sans-serif;
+    --h1: 50px;
+    --h2: 24px;
+    --h3: 20px;
+    --medium: 500;
+    --regular: 400;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 100px;
+    font-family: var(--font-family);
+}
+nav h1 {
+    font-size: var(--h1);
+    color: var(--primary-color);
+}
+nav p {
+    font-size: var(--h3);
+    font-weight: var(--medium);
+    color: var(--strong-gray);
+}
+.in-firts-number {
+    display: flex;
+    margin-top: 50px;
+}
+.in-firts-number p {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    color: var(--medium-gray);
+}
+.in-firts-number input {
+    border-radius: 8px;
+    border-color: var(--medium-gray);
+    border-width: 0.5px;
+    width: 314px;
+    height: 70px;
+    margin-left: 100px;
+}
+.in-second-number {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.in-second-number p {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    color: var(--medium-gray);
+}
+.in-second-number input {
+    border-radius: 8px;
+    border-color: var(--medium-gray);
+    border-width: 0.5px;
+    width: 314px;
+    height: 70px;
+    margin-left: 80px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+}
+.main-buttom input {
+    border-radius: 8px;
+    width: 159px;
+    height: 81px;
+    border-color: var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+    font-size: var(--h2);
+    margin-bottom: 50px;
+    margin-left: 480px;
+}
+.response {
+    display: flex;
+}
+.response .cris-response img {
+    width: 100px;
+    border-radius: 50%;
+}
+.response .quotation-mark img {
+    width: 40px;
+}
