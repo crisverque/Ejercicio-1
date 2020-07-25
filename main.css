@@ -83,3 +83,8 @@ nav p {
 .response .quotation-mark img {
     width: 40px;
 }
+.response p {
+    margin-left: 10px;
+    font-size: var(--h2);
+    color: var(--strong-gray);
+}
