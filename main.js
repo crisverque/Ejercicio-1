@@ -3,8 +3,6 @@ var response = document.getElementById("text-response");
 var result_buttom = document.getElementById("button-result");
 result_buttom.addEventListener("click",calcular);
 
-var higher_number;
-var smaller_number;
 var difference;
 
 function calcular (){
